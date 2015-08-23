@@ -11,7 +11,7 @@ class FindOddNum
         @odd << x
       end
     end
-    puts @odd.min
+    print "the lowest minimum number is " + "#{@odd.min}"
   end
 
 end
